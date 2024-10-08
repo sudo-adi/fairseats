@@ -1,0 +1,7 @@
+version: v2.1
+services:
+  fairseats-backend:
+    image: takshjoshi/fairseats-backend:latest
+    ports:
+      - port: 8000
+        expose: true
